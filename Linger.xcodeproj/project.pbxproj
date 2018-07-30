@@ -7,141 +7,175 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C31D3FB2109BE5E001D6F38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C31D3FA2109BE5E001D6F38 /* AppDelegate.m */; };
-		5C31D3FE2109BE5E001D6F38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C31D3FD2109BE5E001D6F38 /* ViewController.m */; };
-		5C31D4012109BE5E001D6F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C31D3FF2109BE5E001D6F38 /* Main.storyboard */; };
-		5C31D4032109BE62001D6F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C31D4022109BE62001D6F38 /* Assets.xcassets */; };
-		5C31D4062109BE62001D6F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C31D4042109BE62001D6F38 /* LaunchScreen.storyboard */; };
-		5C31D4092109BE62001D6F38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C31D4082109BE62001D6F38 /* main.m */; };
-		5C31D4132109BE63001D6F38 /* LingerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C31D4122109BE63001D6F38 /* LingerTests.m */; };
-		5C31D41E2109BE63001D6F38 /* LingerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C31D41D2109BE63001D6F38 /* LingerUITests.m */; };
+		5CF761C6210EA98600993D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF761C5210EA98600993D61 /* AppDelegate.swift */; };
+		5CF761C8210EA98600993D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF761C7210EA98600993D61 /* ViewController.swift */; };
+		5CF761CB210EA98600993D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF761C9210EA98600993D61 /* Main.storyboard */; };
+		5CF761CD210EA98700993D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF761CC210EA98700993D61 /* Assets.xcassets */; };
+		5CF761D0210EA98700993D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF761CE210EA98700993D61 /* LaunchScreen.storyboard */; };
+		5CF761DB210EA98700993D61 /* LingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF761DA210EA98700993D61 /* LingerTests.swift */; };
+		5CF761E6210EA98700993D61 /* LingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF761E5210EA98700993D61 /* LingerUITests.swift */; };
+		70744FAA94B1C80FCC496DBC /* Pods_LingerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF4F5BECEE366599D5B2B54 /* Pods_LingerUITests.framework */; };
+		898F272BCB9EE10FCA53E262 /* Pods_LingerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996DA6F6617E6385B5F605F /* Pods_LingerTests.framework */; };
+		A7874B1E7BC0486D9616E3FA /* Pods_Linger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B9711A7BBE2B1C59B09CE9 /* Pods_Linger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5C31D40F2109BE63001D6F38 /* PBXContainerItemProxy */ = {
+		5CF761D7210EA98700993D61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5C31D3EE2109BE5D001D6F38 /* Project object */;
+			containerPortal = 5CF761BA210EA98600993D61 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C31D3F52109BE5E001D6F38;
+			remoteGlobalIDString = 5CF761C1210EA98600993D61;
 			remoteInfo = Linger;
 		};
-		5C31D41A2109BE63001D6F38 /* PBXContainerItemProxy */ = {
+		5CF761E2210EA98700993D61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5C31D3EE2109BE5D001D6F38 /* Project object */;
+			containerPortal = 5CF761BA210EA98600993D61 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C31D3F52109BE5E001D6F38;
+			remoteGlobalIDString = 5CF761C1210EA98600993D61;
 			remoteInfo = Linger;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C31D3F62109BE5E001D6F38 /* Linger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linger.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C31D3F92109BE5E001D6F38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5C31D3FA2109BE5E001D6F38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5C31D3FC2109BE5E001D6F38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5C31D3FD2109BE5E001D6F38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5C31D4002109BE5E001D6F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5C31D4022109BE62001D6F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5C31D4052109BE62001D6F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5C31D4072109BE62001D6F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C31D4082109BE62001D6F38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5C31D40E2109BE63001D6F38 /* LingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C31D4122109BE63001D6F38 /* LingerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LingerTests.m; sourceTree = "<group>"; };
-		5C31D4142109BE63001D6F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C31D4192109BE63001D6F38 /* LingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C31D41D2109BE63001D6F38 /* LingerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LingerUITests.m; sourceTree = "<group>"; };
-		5C31D41F2109BE63001D6F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14295160EDA1155DCEAF39D3 /* Pods-Linger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Linger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Linger/Pods-Linger.debug.xcconfig"; sourceTree = "<group>"; };
+		17A6261C22029A27CC46C702 /* Pods-LingerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LingerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LingerUITests/Pods-LingerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		30B9711A7BBE2B1C59B09CE9 /* Pods_Linger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Linger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF761C2210EA98600993D61 /* Linger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF761C5210EA98600993D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CF761C7210EA98600993D61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CF761CA210EA98600993D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CF761CC210EA98700993D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CF761CF210EA98700993D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CF761D1210EA98700993D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF761D6210EA98700993D61 /* LingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF761DA210EA98700993D61 /* LingerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingerTests.swift; sourceTree = "<group>"; };
+		5CF761DC210EA98700993D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF761E1210EA98700993D61 /* LingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF761E5210EA98700993D61 /* LingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingerUITests.swift; sourceTree = "<group>"; };
+		5CF761E7210EA98700993D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB0A5F2AE017616ECABA1BA7 /* Pods-LingerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LingerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LingerTests/Pods-LingerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB38572917F27106A9FA7873 /* Pods-Linger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Linger.release.xcconfig"; path = "Pods/Target Support Files/Pods-Linger/Pods-Linger.release.xcconfig"; sourceTree = "<group>"; };
+		C996DA6F6617E6385B5F605F /* Pods_LingerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LingerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF4F5BECEE366599D5B2B54 /* Pods_LingerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LingerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA49B6CB718743F0978FAFEB /* Pods-LingerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LingerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LingerUITests/Pods-LingerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBA621CFBA21FCCC1CE7D6BA /* Pods-LingerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LingerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LingerTests/Pods-LingerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5C31D3F32109BE5E001D6F38 /* Frameworks */ = {
+		5CF761BF210EA98600993D61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7874B1E7BC0486D9616E3FA /* Pods_Linger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C31D40B2109BE63001D6F38 /* Frameworks */ = {
+		5CF761D3210EA98700993D61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898F272BCB9EE10FCA53E262 /* Pods_LingerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C31D4162109BE63001D6F38 /* Frameworks */ = {
+		5CF761DE210EA98700993D61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70744FAA94B1C80FCC496DBC /* Pods_LingerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5C31D3ED2109BE5D001D6F38 = {
+		5CF761B9210EA98600993D61 = {
 			isa = PBXGroup;
 			children = (
-				5C31D3F82109BE5E001D6F38 /* Linger */,
-				5C31D4112109BE63001D6F38 /* LingerTests */,
-				5C31D41C2109BE63001D6F38 /* LingerUITests */,
-				5C31D3F72109BE5E001D6F38 /* Products */,
+				5CF761C4210EA98600993D61 /* Linger */,
+				5CF761D9210EA98700993D61 /* LingerTests */,
+				5CF761E4210EA98700993D61 /* LingerUITests */,
+				5CF761C3210EA98600993D61 /* Products */,
+				D06D944159EC5BA14ED95AE0 /* Pods */,
+				C1B31E994BB3ACD2840FE66C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		5C31D3F72109BE5E001D6F38 /* Products */ = {
+		5CF761C3210EA98600993D61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C31D3F62109BE5E001D6F38 /* Linger.app */,
-				5C31D40E2109BE63001D6F38 /* LingerTests.xctest */,
-				5C31D4192109BE63001D6F38 /* LingerUITests.xctest */,
+				5CF761C2210EA98600993D61 /* Linger.app */,
+				5CF761D6210EA98700993D61 /* LingerTests.xctest */,
+				5CF761E1210EA98700993D61 /* LingerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C31D3F82109BE5E001D6F38 /* Linger */ = {
+		5CF761C4210EA98600993D61 /* Linger */ = {
 			isa = PBXGroup;
 			children = (
-				5C31D3F92109BE5E001D6F38 /* AppDelegate.h */,
-				5C31D3FA2109BE5E001D6F38 /* AppDelegate.m */,
-				5C31D3FC2109BE5E001D6F38 /* ViewController.h */,
-				5C31D3FD2109BE5E001D6F38 /* ViewController.m */,
-				5C31D3FF2109BE5E001D6F38 /* Main.storyboard */,
-				5C31D4022109BE62001D6F38 /* Assets.xcassets */,
-				5C31D4042109BE62001D6F38 /* LaunchScreen.storyboard */,
-				5C31D4072109BE62001D6F38 /* Info.plist */,
-				5C31D4082109BE62001D6F38 /* main.m */,
+				5CF761C5210EA98600993D61 /* AppDelegate.swift */,
+				5CF761C7210EA98600993D61 /* ViewController.swift */,
+				5CF761C9210EA98600993D61 /* Main.storyboard */,
+				5CF761CC210EA98700993D61 /* Assets.xcassets */,
+				5CF761CE210EA98700993D61 /* LaunchScreen.storyboard */,
+				5CF761D1210EA98700993D61 /* Info.plist */,
 			);
 			path = Linger;
 			sourceTree = "<group>";
 		};
-		5C31D4112109BE63001D6F38 /* LingerTests */ = {
+		5CF761D9210EA98700993D61 /* LingerTests */ = {
 			isa = PBXGroup;
 			children = (
-				5C31D4122109BE63001D6F38 /* LingerTests.m */,
-				5C31D4142109BE63001D6F38 /* Info.plist */,
+				5CF761DA210EA98700993D61 /* LingerTests.swift */,
+				5CF761DC210EA98700993D61 /* Info.plist */,
 			);
 			path = LingerTests;
 			sourceTree = "<group>";
 		};
-		5C31D41C2109BE63001D6F38 /* LingerUITests */ = {
+		5CF761E4210EA98700993D61 /* LingerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5C31D41D2109BE63001D6F38 /* LingerUITests.m */,
-				5C31D41F2109BE63001D6F38 /* Info.plist */,
+				5CF761E5210EA98700993D61 /* LingerUITests.swift */,
+				5CF761E7210EA98700993D61 /* Info.plist */,
 			);
 			path = LingerUITests;
+			sourceTree = "<group>";
+		};
+		C1B31E994BB3ACD2840FE66C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30B9711A7BBE2B1C59B09CE9 /* Pods_Linger.framework */,
+				C996DA6F6617E6385B5F605F /* Pods_LingerTests.framework */,
+				CBF4F5BECEE366599D5B2B54 /* Pods_LingerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D06D944159EC5BA14ED95AE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14295160EDA1155DCEAF39D3 /* Pods-Linger.debug.xcconfig */,
+				AB38572917F27106A9FA7873 /* Pods-Linger.release.xcconfig */,
+				AB0A5F2AE017616ECABA1BA7 /* Pods-LingerTests.debug.xcconfig */,
+				FBA621CFBA21FCCC1CE7D6BA /* Pods-LingerTests.release.xcconfig */,
+				17A6261C22029A27CC46C702 /* Pods-LingerUITests.debug.xcconfig */,
+				EA49B6CB718743F0978FAFEB /* Pods-LingerUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C31D3F52109BE5E001D6F38 /* Linger */ = {
+		5CF761C1210EA98600993D61 /* Linger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C31D4222109BE63001D6F38 /* Build configuration list for PBXNativeTarget "Linger" */;
+			buildConfigurationList = 5CF761EA210EA98700993D61 /* Build configuration list for PBXNativeTarget "Linger" */;
 			buildPhases = (
-				5C31D3F22109BE5E001D6F38 /* Sources */,
-				5C31D3F32109BE5E001D6F38 /* Frameworks */,
-				5C31D3F42109BE5E001D6F38 /* Resources */,
+				4D641C019D1F96C2DA9CC316 /* [CP] Check Pods Manifest.lock */,
+				5CF761BE210EA98600993D61 /* Sources */,
+				5CF761BF210EA98600993D61 /* Frameworks */,
+				5CF761C0210EA98600993D61 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -149,68 +183,71 @@
 			);
 			name = Linger;
 			productName = Linger;
-			productReference = 5C31D3F62109BE5E001D6F38 /* Linger.app */;
+			productReference = 5CF761C2210EA98600993D61 /* Linger.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5C31D40D2109BE63001D6F38 /* LingerTests */ = {
+		5CF761D5210EA98700993D61 /* LingerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C31D4252109BE63001D6F38 /* Build configuration list for PBXNativeTarget "LingerTests" */;
+			buildConfigurationList = 5CF761ED210EA98700993D61 /* Build configuration list for PBXNativeTarget "LingerTests" */;
 			buildPhases = (
-				5C31D40A2109BE63001D6F38 /* Sources */,
-				5C31D40B2109BE63001D6F38 /* Frameworks */,
-				5C31D40C2109BE63001D6F38 /* Resources */,
+				1DC2989F56270CBB25293DD1 /* [CP] Check Pods Manifest.lock */,
+				5CF761D2210EA98700993D61 /* Sources */,
+				5CF761D3210EA98700993D61 /* Frameworks */,
+				5CF761D4210EA98700993D61 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5C31D4102109BE63001D6F38 /* PBXTargetDependency */,
+				5CF761D8210EA98700993D61 /* PBXTargetDependency */,
 			);
 			name = LingerTests;
 			productName = LingerTests;
-			productReference = 5C31D40E2109BE63001D6F38 /* LingerTests.xctest */;
+			productReference = 5CF761D6210EA98700993D61 /* LingerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5C31D4182109BE63001D6F38 /* LingerUITests */ = {
+		5CF761E0210EA98700993D61 /* LingerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C31D4282109BE63001D6F38 /* Build configuration list for PBXNativeTarget "LingerUITests" */;
+			buildConfigurationList = 5CF761F0210EA98700993D61 /* Build configuration list for PBXNativeTarget "LingerUITests" */;
 			buildPhases = (
-				5C31D4152109BE63001D6F38 /* Sources */,
-				5C31D4162109BE63001D6F38 /* Frameworks */,
-				5C31D4172109BE63001D6F38 /* Resources */,
+				0B51484E64A7B820DFDF5900 /* [CP] Check Pods Manifest.lock */,
+				5CF761DD210EA98700993D61 /* Sources */,
+				5CF761DE210EA98700993D61 /* Frameworks */,
+				5CF761DF210EA98700993D61 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5C31D41B2109BE63001D6F38 /* PBXTargetDependency */,
+				5CF761E3210EA98700993D61 /* PBXTargetDependency */,
 			);
 			name = LingerUITests;
 			productName = LingerUITests;
-			productReference = 5C31D4192109BE63001D6F38 /* LingerUITests.xctest */;
+			productReference = 5CF761E1210EA98700993D61 /* LingerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5C31D3EE2109BE5D001D6F38 /* Project object */ = {
+		5CF761BA210EA98600993D61 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Linger;
 				TargetAttributes = {
-					5C31D3F52109BE5E001D6F38 = {
+					5CF761C1210EA98600993D61 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					5C31D40D2109BE63001D6F38 = {
+					5CF761D5210EA98700993D61 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 5C31D3F52109BE5E001D6F38;
+						TestTargetID = 5CF761C1210EA98600993D61;
 					};
-					5C31D4182109BE63001D6F38 = {
+					5CF761E0210EA98700993D61 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 5C31D3F52109BE5E001D6F38;
+						TestTargetID = 5CF761C1210EA98600993D61;
 					};
 				};
 			};
-			buildConfigurationList = 5C31D3F12109BE5D001D6F38 /* Build configuration list for PBXProject "Linger" */;
+			buildConfigurationList = 5CF761BD210EA98600993D61 /* Build configuration list for PBXProject "Linger" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +255,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 5C31D3ED2109BE5D001D6F38;
-			productRefGroup = 5C31D3F72109BE5E001D6F38 /* Products */;
+			mainGroup = 5CF761B9210EA98600993D61;
+			productRefGroup = 5CF761C3210EA98600993D61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C31D3F52109BE5E001D6F38 /* Linger */,
-				5C31D40D2109BE63001D6F38 /* LingerTests */,
-				5C31D4182109BE63001D6F38 /* LingerUITests */,
+				5CF761C1210EA98600993D61 /* Linger */,
+				5CF761D5210EA98700993D61 /* LingerTests */,
+				5CF761E0210EA98700993D61 /* LingerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C31D3F42109BE5E001D6F38 /* Resources */ = {
+		5CF761C0210EA98600993D61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C31D4062109BE62001D6F38 /* LaunchScreen.storyboard in Resources */,
-				5C31D4032109BE62001D6F38 /* Assets.xcassets in Resources */,
-				5C31D4012109BE5E001D6F38 /* Main.storyboard in Resources */,
+				5CF761D0210EA98700993D61 /* LaunchScreen.storyboard in Resources */,
+				5CF761CD210EA98700993D61 /* Assets.xcassets in Resources */,
+				5CF761CB210EA98600993D61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C31D40C2109BE63001D6F38 /* Resources */ = {
+		5CF761D4210EA98700993D61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C31D4172109BE63001D6F38 /* Resources */ = {
+		5CF761DF210EA98700993D61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,61 +294,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B51484E64A7B820DFDF5900 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LingerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DC2989F56270CBB25293DD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LingerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D641C019D1F96C2DA9CC316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Linger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5C31D3F22109BE5E001D6F38 /* Sources */ = {
+		5CF761BE210EA98600993D61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C31D3FE2109BE5E001D6F38 /* ViewController.m in Sources */,
-				5C31D4092109BE62001D6F38 /* main.m in Sources */,
-				5C31D3FB2109BE5E001D6F38 /* AppDelegate.m in Sources */,
+				5CF761C8210EA98600993D61 /* ViewController.swift in Sources */,
+				5CF761C6210EA98600993D61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C31D40A2109BE63001D6F38 /* Sources */ = {
+		5CF761D2210EA98700993D61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C31D4132109BE63001D6F38 /* LingerTests.m in Sources */,
+				5CF761DB210EA98700993D61 /* LingerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C31D4152109BE63001D6F38 /* Sources */ = {
+		5CF761DD210EA98700993D61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C31D41E2109BE63001D6F38 /* LingerUITests.m in Sources */,
+				5CF761E6210EA98700993D61 /* LingerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5C31D4102109BE63001D6F38 /* PBXTargetDependency */ = {
+		5CF761D8210EA98700993D61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C31D3F52109BE5E001D6F38 /* Linger */;
-			targetProxy = 5C31D40F2109BE63001D6F38 /* PBXContainerItemProxy */;
+			target = 5CF761C1210EA98600993D61 /* Linger */;
+			targetProxy = 5CF761D7210EA98700993D61 /* PBXContainerItemProxy */;
 		};
-		5C31D41B2109BE63001D6F38 /* PBXTargetDependency */ = {
+		5CF761E3210EA98700993D61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C31D3F52109BE5E001D6F38 /* Linger */;
-			targetProxy = 5C31D41A2109BE63001D6F38 /* PBXContainerItemProxy */;
+			target = 5CF761C1210EA98600993D61 /* Linger */;
+			targetProxy = 5CF761E2210EA98700993D61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5C31D3FF2109BE5E001D6F38 /* Main.storyboard */ = {
+		5CF761C9210EA98600993D61 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5C31D4002109BE5E001D6F38 /* Base */,
+				5CF761CA210EA98600993D61 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5C31D4042109BE62001D6F38 /* LaunchScreen.storyboard */ = {
+		5CF761CE210EA98700993D61 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5C31D4052109BE62001D6F38 /* Base */,
+				5CF761CF210EA98700993D61 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +412,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5C31D4202109BE63001D6F38 /* Debug */ = {
+		5CF761E8210EA98700993D61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -374,10 +467,12 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		5C31D4212109BE63001D6F38 /* Release */ = {
+		5CF761E9210EA98700993D61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -425,45 +520,55 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5C31D4232109BE63001D6F38 /* Debug */ = {
+		5CF761EB210EA98700993D61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14295160EDA1155DCEAF39D3 /* Pods-Linger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Linger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.codef.Linger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5C31D4242109BE63001D6F38 /* Release */ = {
+		5CF761EC210EA98700993D61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB38572917F27106A9FA7873 /* Pods-Linger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Linger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.codef.Linger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		5C31D4262109BE63001D6F38 /* Debug */ = {
+		5CF761EE210EA98700993D61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0A5F2AE017616ECABA1BA7 /* Pods-LingerTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LingerTests/Info.plist;
@@ -474,14 +579,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.codef.LingerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linger.app/Linger";
 			};
 			name = Debug;
 		};
-		5C31D4272109BE63001D6F38 /* Release */ = {
+		5CF761EF210EA98700993D61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA621CFBA21FCCC1CE7D6BA /* Pods-LingerTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LingerTests/Info.plist;
@@ -492,14 +600,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.codef.LingerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linger.app/Linger";
 			};
 			name = Release;
 		};
-		5C31D4292109BE63001D6F38 /* Debug */ = {
+		5CF761F1210EA98700993D61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A6261C22029A27CC46C702 /* Pods-LingerUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LingerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -509,14 +620,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.codef.LingerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Linger;
 			};
 			name = Debug;
 		};
-		5C31D42A2109BE63001D6F38 /* Release */ = {
+		5CF761F2210EA98700993D61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA49B6CB718743F0978FAFEB /* Pods-LingerUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LingerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -526,6 +640,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.codef.LingerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Linger;
 			};
@@ -534,43 +649,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C31D3F12109BE5D001D6F38 /* Build configuration list for PBXProject "Linger" */ = {
+		5CF761BD210EA98600993D61 /* Build configuration list for PBXProject "Linger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C31D4202109BE63001D6F38 /* Debug */,
-				5C31D4212109BE63001D6F38 /* Release */,
+				5CF761E8210EA98700993D61 /* Debug */,
+				5CF761E9210EA98700993D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C31D4222109BE63001D6F38 /* Build configuration list for PBXNativeTarget "Linger" */ = {
+		5CF761EA210EA98700993D61 /* Build configuration list for PBXNativeTarget "Linger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C31D4232109BE63001D6F38 /* Debug */,
-				5C31D4242109BE63001D6F38 /* Release */,
+				5CF761EB210EA98700993D61 /* Debug */,
+				5CF761EC210EA98700993D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C31D4252109BE63001D6F38 /* Build configuration list for PBXNativeTarget "LingerTests" */ = {
+		5CF761ED210EA98700993D61 /* Build configuration list for PBXNativeTarget "LingerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C31D4262109BE63001D6F38 /* Debug */,
-				5C31D4272109BE63001D6F38 /* Release */,
+				5CF761EE210EA98700993D61 /* Debug */,
+				5CF761EF210EA98700993D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C31D4282109BE63001D6F38 /* Build configuration list for PBXNativeTarget "LingerUITests" */ = {
+		5CF761F0210EA98700993D61 /* Build configuration list for PBXNativeTarget "LingerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C31D4292109BE63001D6F38 /* Debug */,
-				5C31D42A2109BE63001D6F38 /* Release */,
+				5CF761F1210EA98700993D61 /* Debug */,
+				5CF761F2210EA98700993D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5C31D3EE2109BE5D001D6F38 /* Project object */;
+	rootObject = 5CF761BA210EA98600993D61 /* Project object */;
 }
